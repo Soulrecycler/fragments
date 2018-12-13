@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@color/background">
 
-    <TextView
+   <!-- <TextView
         android:id="@+id/textView"
         android:layout_width="244dp"
         android:layout_height="163dp"
@@ -14,5 +14,13 @@
         android:layout_marginTop="134dp"
         android:layout_marginBottom="0dp"
         android:text="frag1"
-        android:textAlignment="center" />
+        android:textAlignment="center" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homerecycler">
+
+
+    </android.support.v7.widget.RecyclerView>
 </RelativeLayout>
